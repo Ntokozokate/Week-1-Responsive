@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hello</title>
+    <style>
+      :root {
+        --button-padding: 12px 10px;
+        --button-color: rgb(225, 241, 247);
+        --button-border-radius: 5px;
+        --color-2: rgb(222, 156, 185);
+      }
+      #body {
+        text-align: center;
+      }
+      #info-buttons {
+        display: flex;
+        justify-content: center;
+      }
+      button {
+        padding: var(--button-padding);
+        border-radius: var(--button-border-radius);
+        cursor: pointer;
+        margin: 6px;
+        border: none;
+      }
+
+      #contact-me {
+        background-color: var(--button-color);
+        color: var(--color-2);
+        border-color: var(--color-2);
+      }
+      #about-me {
+        color: var(--button-color);
+        background-color: var(--color-2);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="body">
+      <h3>🫶🏽Hello my name is</h3>
+      <h1>Ntokozo Kate Moyo</h1>
+      <h6>🇿🇼 Software Developer based in 📍Gweru Zimbabwe</h6>
+    </div>
+    <div id="info-buttons">
+      <div>
+        <a href="about-me.html#mail" target="_blank">
+          <button id="contact-me">Contact-Me</button></a
+        >
+      </div>
+      <div>
+        <a href="about-me.html" target="_blank">
+          <button id="about-me">About-Me</button></a
+        >
+      </div>
+    </div>
+  </body>
+</html>
